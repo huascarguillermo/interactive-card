@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+
+  /* (active input border) */
+  --Linear-Gradient: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+
+  /* (input errors) */
+  --Red: hsl(0, 100%, 66%);
+
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Light-Grayish-Violet: hsl(270, 3%, 87%);
+  --Dark-Grayish-Violet: hsl(279, 6%, 55%);
+  --Very-Dark-Violet: hsl(278, 68%, 11%);
+
+  /* Fonts */
+  --fs-12px: 0.75rem;
+  --fs-14px: 0.875rem;
+  --fs-18px: 1.125rem;
+  --fs-28px: 1.75rem;
+}
+
+body {
+  background-color: var(--White);
+}
