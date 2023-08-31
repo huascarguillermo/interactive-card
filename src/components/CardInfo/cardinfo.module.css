@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 1.75rem;
+}
+
+@media screen and (min-width: 820px) {
+  .wrapper {
+    gap: 1.625rem;
+    margin-bottom: 2.5rem;
+  }
+}

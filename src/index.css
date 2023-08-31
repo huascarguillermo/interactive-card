@@ -26,6 +26,16 @@
   --fs-28px: 1.75rem;
 }
 
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 body {
   background-color: var(--White);
+  font-family: "Space Grotesk", sans-serif;
 }
