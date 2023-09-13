@@ -1,6 +1,7 @@
 import Button from "../Button/Button"
 import Input from "../Input/Input"
 import style from "./cardinfo.module.css"
+import styleInput from '../Input/input.module.css'
 
 function CardInfo() {
   return (
@@ -18,7 +19,21 @@ function CardInfo() {
           placeholder="e.g. 1234 5678 9123"
           type="number"
         />
+
+        <div className={style["flex-group"]}>
+          <div className={style["grid-group"]}>
+            <label htmlFor="" className={styleInput.label}>Exp. Date (MM/YY)</label>
+            <input type="text" className={styleInput.input}/>
+            <input type="text" className={styleInput.input}/>
+          </div>
+          <Input
+            label="CVC"
+            placeholder="e.g. 123"
+            type="text"
+          />
+        </div>
       </div>
+
       <Button>Confirm</Button>
       {/* <Button>Continue</Button> */}
     </section>
