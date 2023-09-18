@@ -15,7 +15,8 @@
 
 .input {
   width: 100%;
-  color: var(--Deep-Violet, #21092f);
+  /* color: var(--Deep-Violet, #21092f); */
+  color: rgba(33, 9, 47, 0.25);
   /* font-feature-settings: "clig" off, "liga" off; */
   font-size: var(--fs-18px);
   font-style: normal;
@@ -25,4 +26,5 @@
   border: 1px solid var(--Light-Grey, #dfdee0);
   border-radius: 0.5rem;
   outline: transparent;
+  /* opacity: 0.25; */
 }
